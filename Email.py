@@ -1,9 +1,4 @@
 import smtplib
-import time
-
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.action_chains import ActionChains
 
 
 class Email:
@@ -13,6 +8,9 @@ class Email:
         self.recipient_email = recipient_email
         self.subject = subject
         self.body = body
+        self.email = None
+
+    #def create_email(self):
 
     def send_email(self):
         message = f"Subject: {self.subject}\n\n{self.body}"
