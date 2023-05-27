@@ -1,6 +1,7 @@
 import csv
 from Email import Email
 from Professor import Professor
+import os
 
 def csv_parser(path):
     professors = {}
@@ -22,16 +23,46 @@ def csv_parser(path):
     return professors
 
 if __name__ == '__main__':
-    path = 'prof.csv'
+    path = 'example.csv'
     professors = csv_parser(path)
 
-    sender = 'rishimaraseta@gmail.com'
-    password = 'nejnvpujmuezqbmo'
+    sender = os.environ['email']
+    password = os.environ['password']
 
     for professor in professors.values():
+
         recipient = professor.get_eaddress()
+        # your experience in...
         subject = 'Research Opportunity Inquiry'
-        body = """
+
+        if professor.school == 'Alabama State University':
+            #read text file
+            body = """<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        font-family: 'Garamond', serif;
+    }
+</style>
+</head>
+<body>
+    <p>Greetings Professor [lastName],</p>
+
+    <p>I hope this email finds you well. My name is Rohan and I am an aspiring computer scientist with an interest in environmentalism. I will be going into my senior year at Skyline High School this fall. While internet searching [insert school], I came across your work in [area] and was impressed by your contributions to the [department] department.</p>
+
+    <p>I have previously worked on a research project on “Machine learning on remote sensing data to monitor harmful algae blooms in estuaries,” and have a keen interest in machine learning techniques. Your experience [in experience].</p>
+
+    <p>I have enclosed my CV in this mail and would be happy to discuss this further with you when you can.</p>
+
+    <p>Thank you for considering my inquiry. I look forward to the possibility of connecting.</p>
+
+    <p>Best regards,<br>
+    Rohan Muppa</p>
+</body>
+</html>"""
+        else:
+            body = """
         Dear Professor [Last Name],
 
         I hope this email finds you well. My name is [Your Name], and I am currently a [year/level] student majoring in [your major] at [your university]. I am reaching out to you because of my keen interest in conducting research in the field of [specific research area or topic].
