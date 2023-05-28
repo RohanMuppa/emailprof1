@@ -29,47 +29,18 @@ def csv_parser(path):
 if __name__ == '__main__':
     path = 'example.csv'
     professors = csv_parser(path)
+    email = Email()  # Assuming the Email class doesn't require a professor argument
 
-    # Credentials
-    sender = os.environ['email']
-    password = os.environ['password']
-
+    # Call the functions beforehand and store the results in the dictionary
+    # this may take longer to iterate through every school and process the function beforehand, but code looks much simpler and the time is not that much greater
+    school_emails = {
+        'University of Bridgeport': email.send_email('TLS', 'smtp.gmail.com', 587, 'CV/CV.pdf',
+                                                     'templates/alabamastate/alabamastate.txt'),
+        'testing': email.send_email('TLS', 'smtp.gmail.com', 587, 'CV/CV.pdf',
+                                    'templates/alabamastate/alabamastate.txt')
+    }
     for professor in professors:
-        if professor.school == 'University of Bridgeport':
-            # Open and edit the file
-            file_path = 'templates/alabamastate/alabamastate.txt'  # Replace with the actual file path
-            with open(file_path, 'r') as file:
-                html_content = file.read()
+        email = Email(professor)
 
-            # Modify the HTML content as needed
-            html_content = html_content.replace('[lastName]', professor.lastName)
-            html_content = html_content.replace('[area]', professor.area)
-            html_content = html_content.replace("[department]", professor.department)
-            html_content = html_content.replace('[school]', professor.school)
-
-            # Add experience if not blank, otherwise use regular template
-            if professor.interests:
-                html_content = html_content.replace('[experience]', professor.interests)
-            else:
-                html_content = html_content.replace('[experience]', '<regular experience template>')
-
-            # Create a multipart message
-            message = MIMEMultipart("alternative")
-
-            # Create HTML part of the message
-            html_part = MIMEText(html_content, "html")
-
-            # Attach the HTML part to the message
-            message.attach(html_part)
-
-            # Set the sender, recipient, and subject
-            message["From"] = sender
-            message["To"] = professor.eaddress
-            message["Subject"] = "Research Opportunity Inquiry"
-
-            smtp_server = 'smtp.bridgeport.edu'  # Update with the University of Bridgeport SMTP server
-            smtp_port = 587  # Update with the appropriate SMTP port for the university's email system
-
-            with smtplib.SMTP_SSL('imap.gmail.com', 993) as server:
-                server.login(sender, password)
-                server.send_message(sender, professor.eaddress, message.as_string())
+        if professor.school in school_emails:
+            school_emails[professor.school]
