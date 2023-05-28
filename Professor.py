@@ -1,22 +1,11 @@
-from Email import Email
-
-
 class Professor:
-    def __init__(self, lastName, address, area, interests, school, department):
-        self.eaddress = address
+    def __init__(self, lastName, eaddress, area, interests, school, department):
+        self.eaddress = eaddress
         self.area = area
         self.interests = interests
         self.school = school
         self.department = department
         self.lastName = lastName
-
-    def set_email(self, sender, recipient, password, subject, body):
-        # Replace the placeholders with your own email and password
-        self.email = Email(sender, password, recipient, subject, body)
-
-    def get_email(self):
-        return self.email
-
     def get_eaddress(self):
         return self.eaddress
 

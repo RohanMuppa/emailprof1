@@ -1,11 +1,7 @@
 import csv
-import smtplib
 
 from Email import Email
 from Professor import Professor
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-import os
 
 def csv_parser(path):
     professors = []
@@ -26,21 +22,19 @@ def csv_parser(path):
 
     return professors
 
+
 if __name__ == '__main__':
     path = 'example.csv'
     professors = csv_parser(path)
-    email = Email()  # Assuming the Email class doesn't require a professor argument
 
-    # Call the functions beforehand and store the results in the dictionary
-    # this may take longer to iterate through every school and process the function beforehand, but code looks much simpler and the time is not that much greater
-    school_emails = {
-        'University of Bridgeport': email.send_email('TLS', 'smtp.gmail.com', 587, 'CV/CV.pdf',
-                                                     'templates/alabamastate/alabamastate.txt'),
-        'testing': email.send_email('TLS', 'smtp.gmail.com', 587, 'CV/CV.pdf',
-                                    'templates/alabamastate/alabamastate.txt')
-    }
+    #schools = ['University of Bridgeport', email.send_emailTLS()]
     for professor in professors:
         email = Email(professor)
+        #maybe email = Email(professor), the rest of the inputs will be specific to the class
+        if professor.school == 'University of Bridgeport':
+            email.send_email('TLS','smtp.gmail.com',587,'CV/CV.pdf',
+                             'templates/alabamastate/alabamastate.txt')
 
-        if professor.school in school_emails:
-            school_emails[professor.school]
+        elif professor.school == 'testing':
+            email.send_email('SSL', 'smtp.gmail.com', 465, 'CV/CV.pdf',
+            'templates/alabamastate/alabamastate.txt')
