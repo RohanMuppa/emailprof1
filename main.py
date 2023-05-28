@@ -10,31 +10,32 @@ def csv_parser(path):
         header = next(csv_reader)  # Read the header row
 
         for row in csv_reader:
-            eaddress = row[0]
-            lastName = row[1]
-            area = row[2]
-            interests = row[3]
-            school = row[4]
-            department = row[5]
-
-            professor = Professor(lastName, eaddress, area, interests, school, department)
+            professor = Professor(row[0], row[1], row[2], row[3], row[4], row[5])
             professors.append(professor)
 
     return professors
 
 
 if __name__ == '__main__':
-    path = 'example.csv'
+    path = 'CSV/emailprof.csv'
     professors = csv_parser(path)
 
     #schools = ['University of Bridgeport', email.send_emailTLS()]
     for professor in professors:
         email = Email(professor)
         #maybe email = Email(professor), the rest of the inputs will be specific to the class
+        #if professor.isPhd == 1:
+
         if professor.school == 'University of Bridgeport':
-            email.send_email('TLS','smtp.gmail.com',587,'CV/CV.pdf',
-                             'templates/alabamastate/alabamastate.txt')
+            email.send_email('TLS','smtp.gmail.com',587,
+                             'templates/ubridgeport/bridgeportTemplate')
+
+        elif professor.school == 'Alabama State University':
+            email.send_email('SSL', 'smtp.gmail.com', 465,
+                             'templates/generalEmail')
+
+        #if professor.school == "Startup":
 
         elif professor.school == 'testing':
-            email.send_email('SSL', 'smtp.gmail.com', 465, 'CV/CV.pdf',
-            'templates/alabamastate/alabamastate.txt')
+            email.send_email('SSL', 'smtp.gmail.com', 465,
+            'templates/generalEmail')

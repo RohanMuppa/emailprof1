@@ -6,7 +6,7 @@
 <body>
     <p style="font-family: Verdana;">Greetings Professor [lastName],</p>
 
-    <p style="font-family: Verdana;">I hope this email finds you well. My name is Rohan, and I am an aspiring computer scientist with an interest in environmentalism. I will be going into my senior year at Skyline High School this fall. While internet searching [school], I came across your work in [area] and was impressed by your contributions to the [department] department.</p>
+    <p style="font-family: Verdana;">TESTING EMAIL TESTING EMAIL TESTING EMAIL piring computer scientist with an interest in environmentalism. I will be going into my senior year at Skyline High School this fall. While internet searching [school], I came across your work in [area] and was impressed by your contributions to the [department] department.</p>
 
     <p style="font-family: Verdana;">I have previously worked on a research project on “Machine learning on remote sensing data to monitor harmful algae blooms in estuaries,” and have a keen interest in machine learning techniques. Your experience [in experience]. I am also open to doing volunteerships or apprenticeships, or any other program that could offer me relevant experience.</p>
 

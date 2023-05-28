@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Garamond, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        Greetings Dr. [lastName],
+    </p>
+
+    <p>
+        I hope this email finds you well. My name is Rohan Muppa, and I will be a senior at Skyline High School this fall. I am eager to express my passion for the fields of computer and environmental sciences. As I embark on my final year of high school, I am actively seeking a valuable research opportunity this summer.
+    </p>
+
+    <p>
+        During my research on [school], I came across your work in the [area] field, which impressed me and led me to believe that you would be the perfect mentor for the project I am pursuing. Specifically, I am interested in exploring the application of machine learning techniques and remote sensing data for water quality monitoring in estuaries.
+    </p>
+
+    <p>
+        In my previous work, I employed XGBoost models to analyze chlorophyll-a concentration and Sea Surface Temperature (°C) as independent variables. These data were sourced from NASA Ocean Color which estimated these values from NASA MODIS Aqua satellite data. Predicting the quantity K. brevis cells as the dependent variable, I utilized historical quantities of K. brevis to train and evaluate the model's performance. Your experience [experience]
+    </p>
+
+    <p>
+        I have attached my updated <a href="https://issaquahwednet-my.sharepoint.com/:b:/g/personal/mupproh24_issaquah_wednet_edu/EXlnaN6z_MpKjzD7n2HAmzoBLCb3WGksSEWG7SgybdS3Gw?e=aBdzTu">CV</a> which provides a comprehensive overview of my academic achievements. I assure you that I will not hinder any process and will require minimal training. I will perform any tasks assigned to me. I would greatly appreciate it if I were given any opportunity fellow to gain experience this summer.
+    </p>
+
+    <p>
+        Thank you in advance for your time and consideration. Looking forward to your response.
+
+    </p>
+    <p>
+        Sincerely,<br>
+        Rohan Muppa
+    </p>
+</body>
+
+</html>
