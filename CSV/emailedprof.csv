@@ -1,22 +1,89 @@
-email,lastName,Area,Interests,School,Department
-"akakar@alasu.edu	",Kakar,Computer Science,,Alabama State University,Computer Information Systems
-"afleming@alasu.edu	",Fleming,Computer Science,,Alabama State University,"Office of Technology Services	"
-"cfeng@alasu.edu	","Feng	","Computer Science	",,Alabama State University,"Math & Computer Science	"
-"baghimire@alasu.edu	",Ghimire,"Computer Science	",,Alabama State University,"Math and Computer Science	"
-"ddjohnson@alasu.edu	",Johnson,"Computer Science	",,Alabama State University,"Office of Technology Services	"
-"dblount@alasu.edu	","Blount	",Computer Science Research,"in biology. As my project has a lot of research on disease and algae development, I believe your biology background, compounded with your math and computer science skills, will be invaluable. Furthermore, your experience as a lab instructor, conducting research is something I highly value and would appreciate working with.",Alabama State University,"Math & Computer Science	"
-"enwaeze@alasu.edu	",Nwaeze,"Computer Science	",,Alabama State University,"Mathematics and Computer Science	"
-"froush@alasu.edu	","Roush	","Computer Science	","in economic analysis. Specifically, in regards to water policy and maangement. I believe your expertise in this field, compounded with your accredited math and computer science background, could benefit my project greatly and take it to the next steps.",Alabama State University,Math & Computer Science
-jzhou@alasu.edu,Zhou,"Computer Science	",,Alabama State University,Math & Computer Science
-cckd@alasu.edu,Darrington,"Computer Science	",in lab research would be of trememdous value for the project.,Alabama State University,Office of Technology Services
-mfoster@alasu.edu,Foster,"Computer Science	",,Alabama State University,Math & Computer Science
-rswamidurai@alasu.edu,Swamidurai,"Computer Science	",,Alabama State University,Math & Computer Science
-rcurtis@alasu.edu,Curtis,"Computer Science	",,Alabama State University,Watkins Learning Ctr
-rprevo@alasu.edu,Prevo-Williams,"Computer Science	",,Alabama State University,Math & Computer Science
-skermausour@alasu.edu,Kermausuor,Mathematics,,Alabama State University,Math & Computer Science
-sungichun@alasu.edu,Chun,"Computer Science	",,Alabama State University,Computer Information System
-tngoye@alasu.edu,Ngo-Ye,"Computer Science	",,Alabama State University,Computer Information Systems
-tdixon@alasu.edu,Dixon,"Computer Science	",,Alabama State University,Math & Computer Science
-ukannan@alasu.edu,Kannan,"Computer Science	",,Alabama State University,"Mathenmatics and Computer Science	"
-"uparker@alasu.edu	",Parker,"Computer Science	",,Alabama State University,Computer Information Systems
-xli@alasu.edu,Li,"Computer Science	",,Alabama State University,"Math & Computer Science	"
+email,lastName,Area,Interests,School,Department,Phone
+"akakar@alasu.edu	",Kakar,Computer Science,,Alabama State University,Computer Information Systems,
+"afleming@alasu.edu	",Fleming,Computer Science,,Alabama State University,"Office of Technology Services	",
+"cfeng@alasu.edu	","Feng	","Computer Science	",,Alabama State University,"Math & Computer Science	",
+"baghimire@alasu.edu	",Ghimire,"Computer Science	",,Alabama State University,"Math and Computer Science	",
+"ddjohnson@alasu.edu	",Johnson,"Computer Science	",,Alabama State University,"Office of Technology Services	",
+"dblount@alasu.edu	","Blount	",Computer Science Research,"in biology. As my project has a lot of research on disease and algae development, I believe your biology background, compounded with your math and computer science skills, will be invaluable. Furthermore, your experience as a lab instructor, conducting research is something I highly value and would appreciate working with.",Alabama State University,"Math & Computer Science	",
+"enwaeze@alasu.edu	",Nwaeze,"Computer Science	",,Alabama State University,"Mathematics and Computer Science	",
+"froush@alasu.edu	","Roush	","Computer Science	","in economic analysis. Specifically, in regards to water policy and maangement. I believe your expertise in this field, compounded with your accredited math and computer science background, could benefit my project greatly and take it to the next steps.",Alabama State University,Math & Computer Science,
+jzhou@alasu.edu,Zhou,"Computer Science	",,Alabama State University,Math & Computer Science,
+cckd@alasu.edu,Darrington,"Computer Science	",in lab research would be of trememdous value for the project.,Alabama State University,Office of Technology Services,
+mfoster@alasu.edu,Foster,"Computer Science	",,Alabama State University,Math & Computer Science,
+rswamidurai@alasu.edu,Swamidurai,"Computer Science	",,Alabama State University,Math & Computer Science,
+rcurtis@alasu.edu,Curtis,"Computer Science	",,Alabama State University,Watkins Learning Ctr,
+rprevo@alasu.edu,Prevo-Williams,"Computer Science	",,Alabama State University,Math & Computer Science,
+skermausour@alasu.edu,Kermausuor,Mathematics,,Alabama State University,Math & Computer Science,
+sungichun@alasu.edu,Chun,"Computer Science	",,Alabama State University,Computer Information System,
+tngoye@alasu.edu,Ngo-Ye,"Computer Science	",,Alabama State University,Computer Information Systems,
+tdixon@alasu.edu,Dixon,"Computer Science	",,Alabama State University,Math & Computer Science,
+ukannan@alasu.edu,Kannan,"Computer Science	",,Alabama State University,"Mathenmatics and Computer Science	",
+"uparker@alasu.edu	",Parker,"Computer Science	",,Alabama State University,Computer Information Systems,
+xli@alasu.edu,Li,"Computer Science	",,Alabama State University,"Math & Computer Science	",
+fello067@umn.edu fello067@umn.edu ,Roth,conservation,"water management research and environmental sciences directly relates to my project, making your expertise invaluable.",University of Minnesota,Water Resources,
+alewand@umn.edu alewand@umn.edu alewand@umn.edu alewand@umn.edualewand@umn.edu alewand@umn.edu alewand@umn.edu ,Lewandowski,agricultural water quality,in water quality research could prove invaluable to my research project.,University of Minnesota,Water Resources,
+chen7953@umn.edu ,Chen,water treatment research,,University of Minnesota,Water Resources,
+milewski@uga.edu ,Milewski,geologic and environmental,"in remote sensing of hyrdological problems is directly related to my research, so your expertise would be invaluable.",University of Minnesota,Geology,
+iwb@gatech.edu ,Isaiah,biochemistry,in marine carbone chemistry would greatly aid my project,Georgia Tech,Sciences,
+adavarpa@spelman.edu,Davarpanah,Environmental and Health Sciences,in environmental remote sensing research is invaluable and could greatly help my project. ,Georgia Tech,Sciences,
+wksmith@arizona.edu ,Smith,Climate / Geospatial Analysis,,University of Arizona,Remote Sensing and Spatial Analysis,
+jennifershim@arizona.edu,Shim,Remote Sensing and Spatial Analysis,,University of Arizona,Remote Sensing and Spatial Analysis,
+cruf@umich.edu,Ruf,Climate Scienes and Engineering,"in environmental remote sensing and oceanic process directly relates to my research and would be invaluable to my research. Papers such as ""Remote Sensing of the Terrestrial Water Cycle with the Cyclone Global Navigation Satellite System (CYGNSS)"" align with my research interest.",University of Michigan,Radiation Laboratory,
+leutsang@umich.edu,Tsang,Computer Science,in environmental remote sensing,University of Michigan,Radiation Laboratory,
+mchatfield@alaska.edu ,Hatfield,Remote Sensing,,University of Alaska,Engineering,
+iganesh@alaska.edu ,Ganesh,Remote Sensing,in teaching and researching remote sensing and your expertise in surface processes make the perfect skillset for my endeavors. Your expertise would be greatly appreciated.,University of Alaska,Geophysical ,
+holben@illinois.edu ,Holben,,,UIUC,,
+sampathmechie@gmail.com,,,,,,
+yizhe@illinois.edu ,Zhan,Remote sensing,in atmospheric remote sensing is directly proves invaluable.,University of Illinois Urbana-Champaign ,Atmospheric Sciences,
+Sterling.Quinn@cwu.edu,Quinn,Remote Sensing,in geographical remote sensing would prove invaluable.,Central Washington University,Geology,
+rhickey@cwu.edu,Hickey,Remote Sensing,remote sensing applications in environmental modeling would prove invaluable.,Central Washington University,Geology,
+lillquis@cwu.edu,Lillquist,Remote Sensing,,Central Washington University,Geology,
+liptonj@cwu.edu,Lipton,Remote Sensing,,Central Washington University,Geology,
+email,lastName,Area,Interests,School,Department,
+devika@rice.edu,Subramanian,Machine Learning,,Rice,Computer Science,
+v.walden@wsu.edu,Walden,remote sensing,In remote sensing of climate change aligns with my research project. Your immense expertise would be invaluable.,Washigton State University,Atmospheric research,
+arg3@u.washington.edu,Gillespie,remote sensing,,University of Washington,Earth and Space sciencs,
+lmmoskal@uw.edu,Monika Moskal,remote sensing,,University of Washington,Earth and Space sciencs,
+barronh@ufl.edu,,,,,(352) 846-2695   ,
+barronh@ufl.edu,Henderson,Remote Sensing,in satellite measurements to monitor air quality could be extended to my project. Your expertise in these subjects is invaluable. ,University of Florida,Remote Sensing,
+rboughton@ufl.edu,Boughton,Remote Sensing,,University of Florida,Remote Sensing,
+aamr@ufl.edu,Abd-Elrahman,Remote Sensing,"in satellite image analysis to monitor resources. Works of yours, such as ""In situ estimation of water quality parameters in freshwater aquaculture ponds using hyperspectral imaging system"" that align perfectly with my research interest.",University of Florida,Remote Sensing,
+halabisk@uw.edu,Halabisky,remote sensing,"in remote sensing with ecology is extensive and would be invaluable to my project. Yours works, such as ""A review of carbon monitoring in wet carbon systems using remote sensing"" align perfectly with my research interest.",University of Washington,Environmental and Forest Science,
+Ryan.G.Smith@colostate.edu,Smith,remote sensing,,Colorodo State University,Geology,
+s.majumdar@mst.edu,Majumdar,remote sensing,,Desert Research Institute,Geology,
+cld9mt@virginia.edu ,Dandridge,remote sensing,,University of Virginia,Geology,
+jb8qv@virginia.edu ,Besnier,remote sensing and machine learning,,University of Virginia,Geology,
+ben.livneh@colorado.edu ,Livneh,remote sensing,,University of Colorado Boulder,Geology,
+hossein.hashemi@tvrl.lth.se  ,Hashemi,remote sensing,,Lund University,Water Resources,
+ronny.berndtsson@tvrl.lth.se  ,Berntsson,remote sensing,,Lund University,Water Resources,
+cintia.bertacchi_uvo@tvrl.lth.se,Berntsson,remote sensing,,Lund University,Water Resources,
+emmanouil.anagnostou@uconn.edu,Anagnostou,remote sensing,,University of Connecticut,Remote sensing,
+ v.walden@wsu.edu,Walden,remote sensing,,Washington State University,remote sensing,
+hwabbott@mtu.edu,Abbotts,remote sensing,,Michigan Technical University,remote sensing,
+christina.kellum@ecy.wa.gov,Kellum,remote sensing,,Department of Ecology,remote sensing,
+"darby.veeck@ecy.wa.gov
+",Veeck,remote sensing,,Department of Ecology,remote sensing,
+jennifer.miller@austin.utexas.edu,Miller,remote sensing,,University of Texas at Austin ,remote sensing,
+blank@ig.utexas.edu,Blankenship,geology,,University of Texas at Austin ,remote sensing,
+wallin@wwu.edu,WALLIN,remote sensing,,Western Washington University,Remote sensing,
+mushkin@u.washington.edu,O'Neal,remote sensing,,University of Washington,Earth and Space Sciences,
+jamesca@uw.edu,James,water sciences,,University of Washington,Earth and Space Sciences,
+tessa@uw.edu,Francis,water sciences,,University of Washington,Earth and Space Sciences,
+tessa@uw.edu,,computer science,in software engineering with water sciences is invaluable.,University of Washington,Earth and Space Sciences,
+slustin@ucdavis.edu,Whiting,remote sensing,,"University of California, Davis",Earth and Space Sciences,
+mwhiting@ucdavis.edu ,Whiting,remote sensing,,"University of California, Davis",Earth and Space Sciences,
+darae@mit.edu,Entekhabi,Soil moisture and hydrology,,Massachusetts Institute of Technology,,
+feng.gao@usda.gov,Gao,Remote sensing of land surface temperature and evapotranspiration,,USDA-ARS Hydrology and Remote Sensing Lab,,
+cristina.milesi@nasa.gov,Milesi,Remote sensing of human-environment interactions,,NASA Ames Research Center,,
+martha.anderson@usda.gov,Anderson,remote sensing,,USDA-ARS Hydrology and Remote Sensing Lab,,
+__elsaordway@ucla.edu,Ordway,remote sensing,,UCLA,,
+nkatz@fm.ucla.edu,Katz,sustainability,sustainability at UCLA is significant. I would greatly appreciate if you could find me a research project I can work on at the school.,UCLA,,
+clabelle@fm.ucla.edu,Moncada,sustainability,,UCLA,,
+nbidna@mednet.ucla.edu,Bidna,sustainability,sustainability at UCLA is significant. I would greatly appreciate if you could find me a research project I can work on at the school.,UCLA,,
+madelyn.glickfeld@ioes.ucla.edu,Glickfield,water research at UCLA is significant. I would greatly appreciate if you could find me a research project I can work on at the school.,,UCLA,,
+linhans@princeton(dot)edu,linhans,remote sensing,,Princeton,,
+biehl@purdue.edu,Biehl,remote sensing,,Laboratory for Applications of,,
+karen.seto@yale.edu,Seto,remote sensing,,Seto lab,,
+xuhui.lee@yale.edu,Lee,remote sensing,,the Yale Center for Earth Observation,,
+tarek.kandakji@yale.edu,Kandakji,remote sensing,,the Yale Center for Earth Observation,,
+ronald.smith@yale.edu,Smith,remote sensing,,Center for Earth Observation,,

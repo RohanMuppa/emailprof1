@@ -1,5 +1,4 @@
 import smtplib
-import imaplib
 from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -39,7 +38,7 @@ class Email:
         # Set the sender, recipient, and subject
         message["From"] = self.sender_email
         message["To"] = self.professor.eaddress
-        message["Subject"] = "Research Opportunity Inquiry"
+        message["Subject"] = "High School Research Opportunity Inquiry"
 
         # Attach the PDF file
         if pdf_file_path != None:
@@ -58,6 +57,8 @@ class Email:
                 server.login(self.sender_email, self.sender_password)
                 server.send_message(message)
 
+    def set_subject(self, message):
+        self.subject = message
     #def check_email_sent(self, professor, imap_server, sender_email):
         # Create an instance of the IMAP4_SSL class
         #mail = imaplib.IMAP4_SSL(imap_server)

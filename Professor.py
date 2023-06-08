@@ -1,5 +1,5 @@
 class Professor:
-    def __init__(self, lastName, eaddress, area, interests, school, department):
+    def __init__(self, eaddress, lastName, area, interests, school, department):
         self.eaddress = eaddress
         self.area = area
         self.interests = interests

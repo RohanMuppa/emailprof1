@@ -1,24 +1,7 @@
-"email","lastName","Area","Interests","School","Department","",""
-"bbarkana@bridgeport.edu","Barkana","Engineering","biology and machine learning directly relates to my research and your advice would be invaluable. ","University of Bridgeport","Electrical Engineering","",""
-"shrestha@bridgeport.edu","Shrestha","Computer Science","in machine learning would be invaluable for my project.","University of Bridgeport","Engineering","",""
-"aelsayed@bridgeport.edu","El-Sayed","Engineering","in machine learning would be invaluable for my project.","University of Bridgeport","Engineering","",""
-"elleithy@bridgeport.edu","Elleithy","Engineering","in machine learning would be invaluable for my project.","University of Bridgeport","Engineering","",""
-"kengelma@bridgeport.edu","Engelmann","Biology","biology directly relates to my research and your expertise would be invaluable. ","University of Bridgeport","Science and Society","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
-"","","","","","","",""
+email,lastName,Area,Interests,School,Department
+linhans@princeton(dot)edu,,remote sensing,,Princeton,remote sensing
+biehl@purdue.edu,Biehl,remote sensing,,Laboratory for Applications of,remote sensing
+karen.seto@yale.edu,Seto,remote sensing,,Seto lab,remote sensing
+xuhui.lee@yale.edu,Lee,remote sensing,,the Yale Center for Earth Observation,remote sensing
+tarek.kandakji@yale.edu,Kandakji,remote sensing,,the Yale Center for Earth Observation,remote sensing
+ronald.smith@yale.edu,Smith,remote sensing,,Center for Earth Observation,remote sensing
