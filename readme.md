@@ -11,7 +11,7 @@ This Python script allows you to send research opportunity inquiry emails to pro
 ## Installation
 
 1. Clone the repository:
-`git clone https://github.com/your_username/email-sending-script.git`
+`git clone 
 
 2. Install the required modules by running the following command: `pip install -r requirements.txt`
 
